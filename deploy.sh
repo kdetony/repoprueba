@@ -19,6 +19,4 @@ docker-compose up -d
 
 echo "Validamos deploy"
 
-docker exec -it appweb ip a
-
 netstat -ltn | grep 8181  > /root/message.txt
