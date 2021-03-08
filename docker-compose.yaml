@@ -8,6 +8,6 @@ services:
     build:
       context: .
     networks:
-      - net
+      - netweb
 networks:
   net:
