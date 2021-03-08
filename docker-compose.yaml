@@ -2,7 +2,7 @@ version: '3'
 services:
   remote_host:
     container_name: appweb
-    image: imgapp
+    image: imgweb
     ports:
       - "8181:8080"
     build:
