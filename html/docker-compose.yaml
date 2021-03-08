@@ -1,1 +1,13 @@
-
+version: '3'
+services:
+  remote_host:
+    container_name: apphtml
+    image: imghtml
+    ports:
+      - "8182:80"
+    build:
+      context: .
+    networks:
+      - netapp
+networks:
+  netapp:
