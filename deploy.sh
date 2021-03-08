@@ -15,6 +15,8 @@ cd /root/repotest
 
 echo "Ready Deploy"
 
+docker-compose build
+
 docker-compose up -d
 
 echo "Validamos deploy"
