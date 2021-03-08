@@ -10,7 +10,7 @@ else
  echo "Descargando repo"
  git clone https://github.com/kdetony/repotest.git 
 fi
-fi
+
 
 cd /root/repotest
 
