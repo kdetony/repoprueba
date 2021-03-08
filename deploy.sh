@@ -19,4 +19,4 @@ docker-compose build && docker-compose up -d
 
 echo "Validamos deploy"
 
-netstat -ltn | grep 8181  > /root/message.txt
+netstat -ltn | grep 8181 > /root/message.txt
