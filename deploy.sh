@@ -11,7 +11,6 @@ else
  git clone https://github.com/kdetony/repotest.git 
 fi
 
-
 cd /root/repotest
 
 echo "Ready Deploy"
@@ -20,4 +19,6 @@ docker-compose up -d
 
 echo "Validamos deploy"
 
-netstat -ltn | grep 8181  > message.txt
+docker exec -it appweb ip a
+
+netstat -ltn | grep 8181  > /root/message.txt
