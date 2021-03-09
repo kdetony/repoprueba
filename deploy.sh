@@ -11,7 +11,7 @@ else
  git clone https://github.com/kdetony/repotest.git 
 fi
 
-cd /root/repotest
+cd /root/repotest/html
 
 echo "Ready Deploy"
 
