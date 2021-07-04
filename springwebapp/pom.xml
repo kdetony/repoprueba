@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>student-services</name>
-	<description>Demo project for Spring Boot v1.0</description>
+	<description>Demo project for Spring Boot v1.1</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
